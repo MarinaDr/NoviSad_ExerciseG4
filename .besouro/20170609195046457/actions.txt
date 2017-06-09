@@ -9,3 +9,7 @@ RefactoringAction 1497030915550 TestBowling.java RENAME initial=>void initial_ F
 RefactoringAction 1497030917566 TestBowling.java RENAME initial_=>void initial_test FIELD
 RefactoringAction 1497030918577 TestBowling.java RENAME initial_test=>void initial_test() METHOD
 EditAction 1497031018386 TestBowling.java 352 1 3 1
+UnitTestCaseAction 1497031037396 TestBowling.java FAIL
+UnitTestSessionAction 1497031037398 TestBowling.java FAIL
+RefactoringAction 1497031069574 BowlingGame.java ADD int score FIELD
+EditAction 1497031077367 BowlingGame.java 748 4 2 0
