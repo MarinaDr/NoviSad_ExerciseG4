@@ -121,3 +121,10 @@ EditAction 1497033647551 BowlingGame.java 1013 4 4 0
 EditAction 1497033702194 BowlingGame.java 997 4 7 0
 EditAction 1497033723736 BowlingGame.java 1003 4 7 0
 EditAction 1497033735082 BowlingGame.java 1004 4 7 0
+UnitTestCaseAction 1497033758600 TestBowling.java OK
+UnitTestSessionAction 1497033758602 TestBowling.java OK
+RefactoringAction 1497033775164 TestBowling.java ADD void bonus FIELD
+RefactoringAction 1497033780678 TestBowling.java RENAME bonus=>void bonus_when_strike() METHOD
+RefactoringAction 1497033783690 TestBowling.java RENAME bonus_when_strike()=>void bonus_when_strike_test FIELD
+RefactoringAction 1497033784700 TestBowling.java RENAME bonus_when_strike_test=>void bonus_when_strike_test() METHOD
+EditAction 1497033882867 TestBowling.java 2560 10 44 10
