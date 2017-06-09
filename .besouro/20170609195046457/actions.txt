@@ -208,3 +208,10 @@ CompilationAction 1497035100460 TestBowling.java
 UnitTestCaseAction 1497035103017 TestBowling.java FAIL
 UnitTestSessionAction 1497035103019 TestBowling.java FAIL
 EditAction 1497035111926 TestBowling.java 3438 12 57 11
+RefactoringAction 1497035151258 TestBowling.java RENAME incorrect_score_after_fisrt_throw()=>void incorrect_score_after_fisrt_throw_ FIELD
+RefactoringAction 1497035154771 TestBowling.java RENAME incorrect_score_after_fisrt_throw_=>void incorrect_score_after_fisrt_throw_in_frame FIELD
+UnitTestCaseAction 1497035180181 TestBowling.java FAIL
+UnitTestSessionAction 1497035180182 TestBowling.java FAIL
+UnitTestCaseAction 1497035204785 TestBowling.java FAIL
+UnitTestSessionAction 1497035204786 TestBowling.java FAIL
+EditAction 1497035215004 TestBowling.java 3376 12 55 11

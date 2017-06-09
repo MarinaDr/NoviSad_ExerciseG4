@@ -149,14 +149,11 @@ public class TestBowling {
 	}
 	
 	@Test (expected=BowlingException.class)
-	public void incorrect_score_after_fisrt_throw() throws Exception {
-		
-		BowlingGame bwlGame=new BowlingGame();
+	public void incorrect_score_after_fisrt_throw_in_frame_test() throws Exception {
 		
 		Frame frame=new Frame(11, 0);
-		bwlGame.addFrame(frame);
 		
-		int score=bwlGame.score();
+		int score=frame.score();
 		
 	}
 
