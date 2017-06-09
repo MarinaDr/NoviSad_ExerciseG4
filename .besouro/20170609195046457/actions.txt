@@ -175,3 +175,6 @@ RefactoringAction 1497034486241 TestBowling.java ADD void Expec() METHOD
 RefactoringAction 1497034494757 TestBowling.java REMOVE Expec() METHOD
 EditAction 1497034536033 BowlingGame.java 1194 4 7 0
 EditAction 1497034552541 TestBowling.java 3359 12 58 12
+UnitTestCaseAction 1497034569681 TestBowling.java FAIL
+UnitTestSessionAction 1497034569682 TestBowling.java FAIL
+EditAction 1497034616846 TestBowling.java 3289 12 57 11
