@@ -11,6 +11,7 @@ public class BowlingGame {
 	private Frame bonus;
 	private int score;
 	
+	
 	public BowlingGame(){
 		
 		score=0;
