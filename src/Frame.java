@@ -2,18 +2,11 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
-	public Frame(int firstThrow, int secondThrow) throws BowlingException{
-		
-
-		if (firstThrow>11 || firstThrow<0) {
-			
-			throw new BowlingException("Incorrect score");
-			
-		}
-		else {
+	public Frame(int firstThrow, int secondThrow) {
+	
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-		}
+		
 	}
 	
 	public int getFirstThrow() {
@@ -27,6 +20,10 @@ public class Frame {
 	//returns the score of a single frame
 	public int score() throws Exception{
 		
+		if (firstThrow+secondThrow>10) {
+			
+			throw new BowlingException("Incorrect score");
+		}
 		//to be implemented
 		return firstThrow+secondThrow;
 	}

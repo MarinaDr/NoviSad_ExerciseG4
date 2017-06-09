@@ -149,7 +149,7 @@ public class TestBowling {
 	}
 	
 	@Test (expected=BowlingException.class)
-	public void incorrect_score_after_fisrt_throw_in_frame_test() throws Exception {
+	public void incorrect_score_test() throws Exception {
 		
 		Frame frame=new Frame(11, 0);
 		
