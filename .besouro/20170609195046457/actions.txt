@@ -1,0 +1,6 @@
+FileOpenedAction 1497030646963 BowlingGame.java 708 4 1 0
+FileOpenedAction 1497030822132 BowlingException.java 58 0 0 0
+FileOpenedAction 1497030826075 Frame.java 671 6 7 0
+FileOpenedAction 1497030847346 TestBowling.java 165 1 1 0
+RefactoringAction 1497030855904 TestBowling.java REMOVE test() METHOD
+EditAction 1497030864410 TestBowling.java 170 0 0 0
