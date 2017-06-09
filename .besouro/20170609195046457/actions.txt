@@ -186,3 +186,12 @@ RefactoringAction 1497034671731 BowlingException.java REMOVE Bo FIELD
 RefactoringAction 1497034685772 BowlingException.java ADD BowlingException(String) METHOD
 EditAction 1497034695412 BowlingException.java 132 1 1 0
 EditAction 1497034837946 Frame.java 957 6 8 0
+CompilationAction 1497034846477 BowlingGame.java
+CompilationAction 1497034846479 Frame.java
+CompilationAction 1497034846481 TestBowling.java
+CompilationAction 1497034885177 Frame.java
+CompilationAction 1497034885613 Frame.java
+CompilationAction 1497034959638 Frame.java
+CompilationAction 1497034960047 Frame.java
+CompilationAction 1497034968632 Frame.java
+EditAction 1497035023457 Frame.java 971 6 8 0
