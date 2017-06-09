@@ -131,3 +131,12 @@ EditAction 1497033882867 TestBowling.java 2560 10 44 10
 UnitTestCaseAction 1497033899582 TestBowling.java FAIL
 UnitTestSessionAction 1497033899585 TestBowling.java FAIL
 EditAction 1497033945211 BowlingGame.java 1137 4 7 0
+UnitTestCaseAction 1497033969458 TestBowling.java OK
+UnitTestSessionAction 1497033969459 TestBowling.java OK
+RefactoringAction 1497033995470 TestBowling.java ADD void score_after_one FIELD
+RefactoringAction 1497033997981 TestBowling.java RENAME score_after_one=>void score_after_one_strike_ FIELD
+RefactoringAction 1497033999497 TestBowling.java RENAME score_after_one_strike_=>void score_after_one_strike_and_ FIELD
+RefactoringAction 1497034002012 TestBowling.java RENAME score_after_one_strike_and_=>void score_after_one_strike_and_one_spare FIELD
+RefactoringAction 1497034004024 TestBowling.java RENAME score_after_one_strike_and_one_spare=>void score_after_one_strike_and_one_spare_ FIELD
+RefactoringAction 1497034007033 TestBowling.java RENAME score_after_one_strike_and_one_spare_=>void METHOD
+EditAction 1497034094561 TestBowling.java 2992 11 53 11

@@ -126,5 +126,25 @@ public class TestBowling {
 		assertEquals("Incorrect score after strike bonus", 24, score);
 	
 	}
+	
+	@Test
+	public void score_after_one_strike_and_one_spare_test() {
+		
+		BowlingGame bwlGame=new BowlingGame();
+		
+		Frame frame1=new Frame(10, 0);
+		bwlGame.addFrame(frame1);
+		
+		Frame frame2=new Frame(4, 6);
+		bwlGame.addFrame(frame2);
+		
+		Frame frame3=new Frame(3, 2);
+		bwlGame.addFrame(frame3);
+		
+		int score=bwlGame.score();
+		
+		assertEquals("Incorrect score after strike and spare", 38, score);
+		
+	}
 
 }
