@@ -27,3 +27,6 @@ RefactoringAction 1497031169787 TestBowling.java RENAME score_4_and=>void score_
 RefactoringAction 1497031170798 TestBowling.java RENAME score_4_and_=>void score_4_and_5 FIELD
 RefactoringAction 1497031173810 TestBowling.java RENAME score_4_and_5=>void score_4_and_5() METHOD
 EditAction 1497031246068 TestBowling.java 516 2 6 2
+UnitTestCaseAction 1497031257900 TestBowling.java FAIL
+UnitTestSessionAction 1497031257902 TestBowling.java FAIL
+EditAction 1497031272092 Frame.java 692 6 7 0
