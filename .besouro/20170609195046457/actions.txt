@@ -74,3 +74,6 @@ RefactoringAction 1497032025970 TestBowling.java RENAME score__frames_test()=>vo
 RefactoringAction 1497032033995 TestBowling.java RENAME score_after_one_frames_test()=>void score_after_one_frame_test() METHOD
 EditAction 1497032087072 TestBowling.java 1547 7 23 7
 EditAction 1497032106459 BowlingGame.java 755 4 2 0
+UnitTestCaseAction 1497032119811 TestBowling.java FAIL
+UnitTestSessionAction 1497032119813 TestBowling.java FAIL
+EditAction 1497032172964 BowlingGame.java 788 4 4 0
