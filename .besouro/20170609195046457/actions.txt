@@ -97,3 +97,5 @@ EditAction 1497032484049 TestBowling.java 2217 9 37 9
 UnitTestCaseAction 1497032498666 TestBowling.java FAIL
 UnitTestSessionAction 1497032498668 TestBowling.java FAIL
 EditAction 1497032634137 BowlingGame.java 788 4 4 0
+RefactoringAction 1497032710974 BowlingGame.java ADD int frameCounter FIELD
+EditAction 1497033031326 BowlingGame.java 1035 4 7 0
