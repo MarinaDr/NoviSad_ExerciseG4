@@ -36,5 +36,14 @@ public class TestBowling {
 		boolean isSpare=frame.isSpare();
 		assertEquals("Incorrect score when spare", true, isSpare);
 	}
+	
+	@Test
+	public void strike_test() {
+		
+		Frame frame=new Frame(10, 0);
+		
+		boolean isStrike=frame.isStrike();
+		assertEquals("Incorrect score when strike", true, isStrike);
+	}
 
 }

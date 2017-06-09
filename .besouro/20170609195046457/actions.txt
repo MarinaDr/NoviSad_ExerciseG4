@@ -38,3 +38,11 @@ EditAction 1497031428824 TestBowling.java 698 3 9 3
 UnitTestCaseAction 1497031441811 TestBowling.java FAIL
 UnitTestSessionAction 1497031441813 TestBowling.java FAIL
 EditAction 1497031512321 Frame.java 752 6 7 0
+UnitTestCaseAction 1497031524501 TestBowling.java OK
+UnitTestSessionAction 1497031524502 TestBowling.java OK
+RefactoringAction 1497031539216 TestBowling.java ADD void when FIELD
+RefactoringAction 1497031544234 TestBowling.java RENAME when=>void w FIELD
+RefactoringAction 1497031547248 TestBowling.java REMOVE w FIELD
+RefactoringAction 1497031549259 TestBowling.java ADD void strike FIELD
+RefactoringAction 1497031551771 TestBowling.java RENAME strike=>void strike_test() METHOD
+EditAction 1497031594603 TestBowling.java 886 4 12 4
