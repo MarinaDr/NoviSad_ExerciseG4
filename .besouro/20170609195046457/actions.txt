@@ -161,3 +161,16 @@ RefactoringAction 1497034278080 TestBowling.java RENAME spare_in_10th_frame=>voi
 RefactoringAction 1497034300122 TestBowling.java RENAME spare_in_10th_frame()=>void finish_after_10_frames() METHOD
 RefactoringAction 1497034301634 TestBowling.java RENAME finish_after_10_frames()=>void finish_after_10_frames_test() METHOD
 EditAction 1497034384515 TestBowling.java 3880 12 76 12
+RefactoringAction 1497034406946 TestBowling.java REMOVE finish_after_10_frames_test() METHOD
+RefactoringAction 1497034419972 TestBowling.java ADD void incorrect FIELD
+RefactoringAction 1497034429021 TestBowling.java RENAME incorrect=>void incorrect_f FIELD
+RefactoringAction 1497034431032 TestBowling.java RENAME incorrect_f=>void incorrect_ FIELD
+RefactoringAction 1497034435042 TestBowling.java RENAME incorrect_=>void incorrect_score_after FIELD
+RefactoringAction 1497034436052 TestBowling.java RENAME incorrect_score_after=>void incorrect_score_after_ FIELD
+RefactoringAction 1497034438562 TestBowling.java RENAME incorrect_score_after_=>void incorrect_score_after_fisrt_ FIELD
+RefactoringAction 1497034440071 TestBowling.java RENAME incorrect_score_after_fisrt_=>void incorrect_score_after_fisrt_throw FIELD
+RefactoringAction 1497034441585 TestBowling.java RENAME incorrect_score_after_fisrt_throw=>void incorrect_score_after_fisrt_throw() METHOD
+RefactoringAction 1497034469189 TestBowling.java ADD import org.junit.rules.ExpectedException IMPORT
+RefactoringAction 1497034486241 TestBowling.java ADD void Expec() METHOD
+RefactoringAction 1497034494757 TestBowling.java REMOVE Expec() METHOD
+EditAction 1497034536033 BowlingGame.java 1194 4 7 0

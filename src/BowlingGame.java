@@ -36,7 +36,12 @@ public class BowlingGame {
 				
 				setBonus(frame.getFirstThrow(), frame.getSecondThrow());
 			}
-		}
+			
+			else if (frameCounter==10) {
+				
+				
+			}
+		} 
 	}
 	
 	// Sets the bonus throws at the end of the game
