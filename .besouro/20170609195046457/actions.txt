@@ -94,3 +94,6 @@ RefactoringAction 1497032366692 TestBowling.java RENAME bonus_when_=>void bonus_
 RefactoringAction 1497032368704 TestBowling.java RENAME bonus_when_spare=>void bonus_when_spare_test FIELD
 RefactoringAction 1497032369714 TestBowling.java RENAME bonus_when_spare_test=>void bonus_when_spare_test() METHOD
 EditAction 1497032484049 TestBowling.java 2217 9 37 9
+UnitTestCaseAction 1497032498666 TestBowling.java FAIL
+UnitTestSessionAction 1497032498668 TestBowling.java FAIL
+EditAction 1497032634137 BowlingGame.java 788 4 4 0
