@@ -174,3 +174,4 @@ RefactoringAction 1497034469189 TestBowling.java ADD import org.junit.rules.Expe
 RefactoringAction 1497034486241 TestBowling.java ADD void Expec() METHOD
 RefactoringAction 1497034494757 TestBowling.java REMOVE Expec() METHOD
 EditAction 1497034536033 BowlingGame.java 1194 4 7 0
+EditAction 1497034552541 TestBowling.java 3359 12 58 12

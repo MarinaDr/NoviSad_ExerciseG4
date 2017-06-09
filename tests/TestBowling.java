@@ -1,6 +1,7 @@
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 public class TestBowling {
 
@@ -147,45 +148,17 @@ public class TestBowling {
 		
 	}
 	
-	@Test 
-	public void finish_after_10_frames_test() {
-		 
+	@Test (expected=BowlingException.class)
+	public void incorrect_score_after_fisrt_throw() {
+		
 		BowlingGame bwlGame=new BowlingGame();
 		
-		Frame frame1=new Frame(10, 0);
-		bwlGame.addFrame(frame1);
-		
-		Frame frame2=new Frame(4, 6);
-		bwlGame.addFrame(frame2);
-		
-		Frame frame3=new Frame(3, 2);
-		bwlGame.addFrame(frame3);
-		
-		Frame frame4=new Frame(5, 7);
-		bwlGame.addFrame(frame4);
-		
-		Frame frame5=new Frame(4, 6);
-		bwlGame.addFrame(frame5);
-		
-		Frame frame6=new Frame(3, 2);
-		bwlGame.addFrame(frame6);
-		
-		Frame frame7=new Frame(3, 2);
-		bwlGame.addFrame(frame7);
-		
-		Frame frame8=new Frame(5, 7);
-		bwlGame.addFrame(frame8);
-		
-		Frame frame9=new Frame(4, 6);
-		bwlGame.addFrame(frame9);
-		
-		Frame frame10=new Frame(3, 2);
-		bwlGame.addFrame(frame10);
+		Frame frame=new Frame(11, 0);
+		bwlGame.addFrame(frame);
 		
 		int score=bwlGame.score();
 		
 		assertEquals("Incorrect score after strike and spare", 38, score);
-		
 		
 	}
 
