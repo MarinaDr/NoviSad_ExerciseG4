@@ -40,7 +40,7 @@ public class Frame {
 	}
 	
 	//return whether a frame is a spare or not
-	public boolean isSpare(){
+	public boolean isSpare() throws Exception{
 		
 		if (firstThrow!=10 && score()==10) {
 			

@@ -20,7 +20,7 @@ public class TestBowling {
 	}
 	
 	@Test 
-	public void score_4_and_5() {
+	public void score_4_and_5() throws Exception {
 		
 		Frame frame=new Frame(4, 5);
 		
@@ -30,7 +30,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void spare_test() {
+	public void spare_test() throws Exception {
 		
 		Frame frame=new Frame(5, 5);
 		
@@ -48,7 +48,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void not_spare_test() {
+	public void not_spare_test() throws Exception {
 		
 		Frame frame=new Frame(3, 5);
 		
@@ -67,7 +67,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void score_after_one_frame_test() {
+	public void score_after_one_frame_test() throws Exception {
 		
 		BowlingGame bwlGame=new BowlingGame();
 		
@@ -80,7 +80,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void score_after_two_tests() {
+	public void score_after_two_tests() throws Exception {
 		
 		BowlingGame bwlGame=new BowlingGame();
 		
@@ -96,7 +96,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void bonus_when_spare_test() {
+	public void bonus_when_spare_test() throws Exception {
 		
 		BowlingGame bwlGame=new BowlingGame();
 		
@@ -112,7 +112,7 @@ public class TestBowling {
 	}
 	
 	@Test 
-	public void bonus_when_strike_test() {
+	public void bonus_when_strike_test() throws Exception {
 		
 		BowlingGame bwlGame=new BowlingGame();
 		
@@ -129,7 +129,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void score_after_one_strike_and_one_spare_test() {
+	public void score_after_one_strike_and_one_spare_test() throws Exception {
 		
 		BowlingGame bwlGame=new BowlingGame();
 		
@@ -149,7 +149,7 @@ public class TestBowling {
 	}
 	
 	@Test (expected=BowlingException.class)
-	public void incorrect_score_after_fisrt_throw() {
+	public void incorrect_score_after_fisrt_throw() throws Exception {
 		
 		BowlingGame bwlGame=new BowlingGame();
 		
@@ -157,7 +157,6 @@ public class TestBowling {
 		bwlGame.addFrame(frame);
 		
 		int score=bwlGame.score();
-		
 		
 	}
 

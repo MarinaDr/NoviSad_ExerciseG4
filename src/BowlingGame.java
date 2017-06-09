@@ -19,7 +19,7 @@ public class BowlingGame {
 	}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
+	public void addFrame(Frame frame) throws Exception{
 			
 		frames.add(frame);
 		score=score+frame.score();
