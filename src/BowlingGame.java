@@ -31,6 +31,11 @@ public class BowlingGame {
 				
 				setBonus(frame.getFirstThrow(), 0);
 			}
+			
+			else if (frames.get(frameCounter-1).isStrike()) {
+				
+				setBonus(frame.getFirstThrow(), frame.getSecondThrow());
+			}
 		}
 	}
 	

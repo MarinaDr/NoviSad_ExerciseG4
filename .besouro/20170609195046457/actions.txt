@@ -128,3 +128,6 @@ RefactoringAction 1497033780678 TestBowling.java RENAME bonus=>void bonus_when_s
 RefactoringAction 1497033783690 TestBowling.java RENAME bonus_when_strike()=>void bonus_when_strike_test FIELD
 RefactoringAction 1497033784700 TestBowling.java RENAME bonus_when_strike_test=>void bonus_when_strike_test() METHOD
 EditAction 1497033882867 TestBowling.java 2560 10 44 10
+UnitTestCaseAction 1497033899582 TestBowling.java FAIL
+UnitTestSessionAction 1497033899585 TestBowling.java FAIL
+EditAction 1497033945211 BowlingGame.java 1137 4 7 0
