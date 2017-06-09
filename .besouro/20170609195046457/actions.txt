@@ -35,3 +35,6 @@ UnitTestSessionAction 1497031284928 TestBowling.java OK
 RefactoringAction 1497031331170 TestBowling.java ADD void spare FIELD
 RefactoringAction 1497031333684 TestBowling.java RENAME spare=>void spare_test() METHOD
 EditAction 1497031428824 TestBowling.java 698 3 9 3
+UnitTestCaseAction 1497031441811 TestBowling.java FAIL
+UnitTestSessionAction 1497031441813 TestBowling.java FAIL
+EditAction 1497031512321 Frame.java 752 6 7 0
