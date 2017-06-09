@@ -91,7 +91,7 @@ public class TestBowling {
 		
 		int score=bwlGame.score();
 		
-		assertEquals("Incorrect score after one frame", 7, score);
+		assertEquals("Incorrect score after one frame", 16, score);
 	}
 
 }

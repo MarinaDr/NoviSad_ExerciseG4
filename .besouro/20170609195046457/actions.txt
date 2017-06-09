@@ -84,3 +84,4 @@ RefactoringAction 1497032204299 TestBowling.java RENAME score_after=>void score_
 RefactoringAction 1497032207316 TestBowling.java RENAME score_after_=>void score_after_two_test FIELD
 RefactoringAction 1497032209827 TestBowling.java RENAME score_after_two_test=>void score_after_two_tests() METHOD
 EditAction 1497032258655 TestBowling.java 1880 8 30 8
+EditAction 1497032272713 TestBowling.java 1881 8 30 8
