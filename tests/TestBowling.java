@@ -39,7 +39,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void strike_test() {
+	public void strike_test() throws BowlingException {
 		
 		Frame frame=new Frame(10, 0);
 		
@@ -58,7 +58,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void not_strike_test() {
+	public void not_strike_test() throws BowlingException {
 		
 		Frame frame=new Frame(8, 0);
 		
