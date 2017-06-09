@@ -46,3 +46,6 @@ RefactoringAction 1497031547248 TestBowling.java REMOVE w FIELD
 RefactoringAction 1497031549259 TestBowling.java ADD void strike FIELD
 RefactoringAction 1497031551771 TestBowling.java RENAME strike=>void strike_test() METHOD
 EditAction 1497031594603 TestBowling.java 886 4 12 4
+UnitTestCaseAction 1497031607276 TestBowling.java FAIL
+UnitTestSessionAction 1497031607277 TestBowling.java FAIL
+EditAction 1497031671758 Frame.java 849 6 7 0

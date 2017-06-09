@@ -24,7 +24,14 @@ public class Frame {
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		//to be implemented
+		if (firstThrow==10 && secondThrow==0) {
+			
+			return true;
+		}
+		else {
+
 		return false;
+		}
 	}
 	
 	//return whether a frame is a spare or not
@@ -33,8 +40,10 @@ public class Frame {
 		if (firstThrow!=10 && score()==10) {
 			
 			return true;
-		} else {
-		return false;
+		} 
+		else {
+			
+			return false;
 		}
 	}
 }
