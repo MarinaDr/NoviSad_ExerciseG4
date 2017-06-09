@@ -20,14 +20,12 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
-		if (frameCounter==0) {
 			
 		frames.add(frame);
 		score=score+frame.score();
 		frameCounter++;
-		}
-		else {
 			
+		if (frameCounter>1) {
 			if (frames.get(frameCounter-1).isSpare()) {
 				
 				setBonus(frame.getFirstThrow(), 0);
