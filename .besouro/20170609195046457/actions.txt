@@ -185,3 +185,4 @@ RefactoringAction 1497034669724 BowlingException.java RENAME B=>void Bo FIELD
 RefactoringAction 1497034671731 BowlingException.java REMOVE Bo FIELD
 RefactoringAction 1497034685772 BowlingException.java ADD BowlingException(String) METHOD
 EditAction 1497034695412 BowlingException.java 132 1 1 0
+EditAction 1497034837946 Frame.java 957 6 8 0
