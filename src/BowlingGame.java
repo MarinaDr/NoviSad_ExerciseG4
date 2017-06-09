@@ -37,10 +37,6 @@ public class BowlingGame {
 				setBonus(frame.getFirstThrow(), frame.getSecondThrow());
 			}
 			
-			else if (frameCounter==10) {
-				
-				
-			}
 		} 
 	}
 	
