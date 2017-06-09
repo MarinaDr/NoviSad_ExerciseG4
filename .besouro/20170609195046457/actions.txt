@@ -58,3 +58,18 @@ UnitTestSessionAction 1497031744238 TestBowling.java OK
 RefactoringAction 1497031753153 TestBowling.java ADD void strike_test()/2 METHOD
 RefactoringAction 1497031757169 TestBowling.java ADD void not FIELD
 EditAction 1497031774269 TestBowling.java 1277 6 18 6
+UnitTestCaseAction 1497031783993 TestBowling.java OK
+UnitTestSessionAction 1497031783994 TestBowling.java OK
+RefactoringAction 1497031909929 TestBowling.java ADD void score_ FIELD
+RefactoringAction 1497031910937 TestBowling.java RENAME score_=>void score_wh FIELD
+RefactoringAction 1497031912463 TestBowling.java RENAME score_wh=>void score_whe FIELD
+RefactoringAction 1497031915483 TestBowling.java RENAME score_whe=>void score_ FIELD
+RefactoringAction 1497031919998 TestBowling.java RENAME score_=>void score_at FIELD
+RefactoringAction 1497031923034 TestBowling.java RENAME score_at=>void score_at_two_ FIELD
+RefactoringAction 1497031924545 TestBowling.java RENAME score_at_two_=>void score_at_two_frames FIELD
+RefactoringAction 1497031926558 TestBowling.java RENAME score_at_two_frames=>void score_at_two_frames_ FIELD
+RefactoringAction 1497031928572 TestBowling.java RENAME score_at_two_frames_=>void score_at_two_frames_test() METHOD
+RefactoringAction 1497032019446 TestBowling.java RENAME score_at_two_frames_test()=>void score__frames_test() METHOD
+RefactoringAction 1497032025970 TestBowling.java RENAME score__frames_test()=>void score_after FIELD
+RefactoringAction 1497032033995 TestBowling.java RENAME score_after_one_frames_test()=>void score_after_one_frame_test() METHOD
+EditAction 1497032087072 TestBowling.java 1547 7 23 7

@@ -64,5 +64,18 @@ public class TestBowling {
 		boolean isStrike=frame.isStrike();
 		assertEquals("Incorrect score when not strike", false, isStrike);
 	}
+	
+	@Test
+	public void score_after_one_frame_test() {
+		
+		BowlingGame bwlGame=new BowlingGame();
+		
+		Frame frame=new Frame(4, 3);
+		bwlGame.addFrame(frame);
+		
+		int score=bwlGame.score();
+		
+		assertEquals("Incorrect score after one frame", 7, score);
+	}
 
 }
