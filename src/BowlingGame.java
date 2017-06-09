@@ -25,7 +25,7 @@ public class BowlingGame {
 		score=score+frame.score();
 		frameCounter++;
 			
-		if (frameCounter>1) {
+		if (frameCounter>=1) {
 			
 			if (frames.get(frameCounter-1).isSpare()) {
 				
