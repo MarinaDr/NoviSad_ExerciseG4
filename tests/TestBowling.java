@@ -14,7 +14,7 @@ public class TestBowling {
 		BowlingGame bwlGame=new BowlingGame();
 		
 		int score=bwlGame.score();
-		assertEquals("Incorrect initial score", "0", score);
+		assertEquals("Incorrect initial score", 0, score);
 		
 	}
 
