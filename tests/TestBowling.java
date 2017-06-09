@@ -52,8 +52,17 @@ public class TestBowling {
 		Frame frame=new Frame(3, 5);
 		
 		boolean isSpare=frame.isSpare();
-		assertEquals("Incorrect score when spare", false, isSpare);
+		assertEquals("Incorrect score when not spare", false, isSpare);
 		
+	}
+	
+	@Test
+	public void not_strike_test() {
+		
+		Frame frame=new Frame(8, 0);
+		
+		boolean isStrike=frame.isStrike();
+		assertEquals("Incorrect score when not strike", false, isStrike);
 	}
 
 }

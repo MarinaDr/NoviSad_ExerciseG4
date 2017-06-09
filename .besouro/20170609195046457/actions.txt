@@ -53,3 +53,8 @@ UnitTestCaseAction 1497031687556 TestBowling.java OK
 UnitTestSessionAction 1497031687558 TestBowling.java OK
 RefactoringAction 1497031706541 TestBowling.java ADD void not_spare_test() METHOD
 EditAction 1497031730247 TestBowling.java 1077 5 15 5
+UnitTestCaseAction 1497031744236 TestBowling.java OK
+UnitTestSessionAction 1497031744238 TestBowling.java OK
+RefactoringAction 1497031753153 TestBowling.java ADD void strike_test()/2 METHOD
+RefactoringAction 1497031757169 TestBowling.java ADD void not FIELD
+EditAction 1497031774269 TestBowling.java 1277 6 18 6
