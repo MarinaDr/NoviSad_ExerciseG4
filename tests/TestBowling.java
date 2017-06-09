@@ -17,5 +17,15 @@ public class TestBowling {
 		assertEquals("Incorrect initial score", 0, score);
 		
 	}
+	
+	@Test 
+	public void score_4_and_5() {
+		
+		Frame frame=new Frame(4, 5);
+		
+		int score=frame.score();
+		assertEquals("Incorrect score", 9, score);
+		
+	}
 
 }
