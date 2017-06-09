@@ -10,7 +10,7 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	private int score;
-	private int frameCounter=0;
+	private int frameCounter=-1;
 	
 	
 	public BowlingGame(){
@@ -26,6 +26,7 @@ public class BowlingGame {
 		frameCounter++;
 			
 		if (frameCounter>1) {
+			
 			if (frames.get(frameCounter-1).isSpare()) {
 				
 				setBonus(frame.getFirstThrow(), 0);
