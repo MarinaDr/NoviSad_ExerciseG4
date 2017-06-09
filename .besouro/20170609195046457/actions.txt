@@ -85,3 +85,12 @@ RefactoringAction 1497032207316 TestBowling.java RENAME score_after_=>void score
 RefactoringAction 1497032209827 TestBowling.java RENAME score_after_two_test=>void score_after_two_tests() METHOD
 EditAction 1497032258655 TestBowling.java 1880 8 30 8
 EditAction 1497032272713 TestBowling.java 1881 8 30 8
+UnitTestCaseAction 1497032291830 TestBowling.java OK
+UnitTestSessionAction 1497032291831 TestBowling.java OK
+RefactoringAction 1497032361661 TestBowling.java ADD void bonus FIELD
+RefactoringAction 1497032363672 TestBowling.java RENAME bonus=>void bonus_when FIELD
+RefactoringAction 1497032364682 TestBowling.java RENAME bonus_when=>void bonus_when_ FIELD
+RefactoringAction 1497032366692 TestBowling.java RENAME bonus_when_=>void bonus_when_spare FIELD
+RefactoringAction 1497032368704 TestBowling.java RENAME bonus_when_spare=>void bonus_when_spare_test FIELD
+RefactoringAction 1497032369714 TestBowling.java RENAME bonus_when_spare_test=>void bonus_when_spare_test() METHOD
+EditAction 1497032484049 TestBowling.java 2217 9 37 9
