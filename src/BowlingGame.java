@@ -22,10 +22,6 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		
 		frames.add(frame);
-		if (frame.isSpare()) {
-			
-			setBonus(frame.getFirstThrow(), frame.getSecondThrow());
-		}
 		score=score+frame.score();
 		frameCounter++;
 	}
