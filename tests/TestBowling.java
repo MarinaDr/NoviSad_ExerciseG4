@@ -77,5 +77,21 @@ public class TestBowling {
 		
 		assertEquals("Incorrect score after one frame", 7, score);
 	}
+	
+	@Test
+	public void score_after_two_tests() {
+		
+		BowlingGame bwlGame=new BowlingGame();
+		
+		Frame frame1=new Frame(4, 3);
+		bwlGame.addFrame(frame1);
+		
+		Frame frame2=new Frame(3, 6);
+		bwlGame.addFrame(frame2);
+		
+		int score=bwlGame.score();
+		
+		assertEquals("Incorrect score after one frame", 7, score);
+	}
 
 }
