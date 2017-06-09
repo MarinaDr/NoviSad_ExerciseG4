@@ -140,3 +140,24 @@ RefactoringAction 1497034002012 TestBowling.java RENAME score_after_one_strike_a
 RefactoringAction 1497034004024 TestBowling.java RENAME score_after_one_strike_and_one_spare=>void score_after_one_strike_and_one_spare_ FIELD
 RefactoringAction 1497034007033 TestBowling.java RENAME score_after_one_strike_and_one_spare_=>void METHOD
 EditAction 1497034094561 TestBowling.java 2992 11 53 11
+UnitTestCaseAction 1497034112213 TestBowling.java OK
+UnitTestSessionAction 1497034112214 TestBowling.java OK
+UnitTestCaseAction 1497034112236 TestBowling.java OK
+UnitTestSessionAction 1497034112238 TestBowling.java OK
+RefactoringAction 1497034251929 TestBowling.java ADD void when_ FIELD
+RefactoringAction 1497034253441 TestBowling.java REMOVE when_ FIELD
+RefactoringAction 1497034256957 TestBowling.java ADD void game_over FIELD
+RefactoringAction 1497034257969 TestBowling.java RENAME game_over=>void game_over_ FIELD
+RefactoringAction 1497034259479 TestBowling.java RENAME game_over_=>void game_over FIELD
+RefactoringAction 1497034264492 TestBowling.java RENAME game_over=>void spare_ FIELD
+RefactoringAction 1497034266502 TestBowling.java RENAME spare_=>void spare_when_ FIELD
+RefactoringAction 1497034268014 TestBowling.java RENAME spare_when_=>void spare_ FIELD
+RefactoringAction 1497034269024 TestBowling.java RENAME spare_=>void spare_in FIELD
+RefactoringAction 1497034270035 TestBowling.java RENAME spare_in=>void spare_in_ FIELD
+RefactoringAction 1497034271546 TestBowling.java RENAME spare_in_=>void spare_in_10th FIELD
+RefactoringAction 1497034272555 TestBowling.java RENAME spare_in_10th=>void spare_in_10th_ FIELD
+RefactoringAction 1497034276068 TestBowling.java RENAME spare_in_10th_=>void spare_in_10th_frame FIELD
+RefactoringAction 1497034278080 TestBowling.java RENAME spare_in_10th_frame=>void spare_in_10th_frame() METHOD
+RefactoringAction 1497034300122 TestBowling.java RENAME spare_in_10th_frame()=>void finish_after_10_frames() METHOD
+RefactoringAction 1497034301634 TestBowling.java RENAME finish_after_10_frames()=>void finish_after_10_frames_test() METHOD
+EditAction 1497034384515 TestBowling.java 3880 12 76 12
