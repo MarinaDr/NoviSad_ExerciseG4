@@ -49,3 +49,7 @@ EditAction 1497031594603 TestBowling.java 886 4 12 4
 UnitTestCaseAction 1497031607276 TestBowling.java FAIL
 UnitTestSessionAction 1497031607277 TestBowling.java FAIL
 EditAction 1497031671758 Frame.java 849 6 7 0
+UnitTestCaseAction 1497031687556 TestBowling.java OK
+UnitTestSessionAction 1497031687558 TestBowling.java OK
+RefactoringAction 1497031706541 TestBowling.java ADD void not_spare_test() METHOD
+EditAction 1497031730247 TestBowling.java 1077 5 15 5
