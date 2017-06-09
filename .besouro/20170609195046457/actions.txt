@@ -179,3 +179,9 @@ UnitTestCaseAction 1497034569681 TestBowling.java FAIL
 UnitTestSessionAction 1497034569682 TestBowling.java FAIL
 EditAction 1497034616846 TestBowling.java 3289 12 57 11
 EditAction 1497034643626 BowlingGame.java 1143 4 7 0
+FileOpenedAction 1497034659693 BowlingException.java 58 0 0 0
+RefactoringAction 1497034668215 BowlingException.java ADD void B FIELD
+RefactoringAction 1497034669724 BowlingException.java RENAME B=>void Bo FIELD
+RefactoringAction 1497034671731 BowlingException.java REMOVE Bo FIELD
+RefactoringAction 1497034685772 BowlingException.java ADD BowlingException(String) METHOD
+EditAction 1497034695412 BowlingException.java 132 1 1 0
