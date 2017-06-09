@@ -15,7 +15,6 @@ public class BowlingGame {
 	
 	public BowlingGame(){
 		
-		score=0;
 	}
 	
 	// adds a frame to the game
@@ -36,6 +35,8 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
+		
+		score=0;
 		//to be implemented: should return game score 
 		for (int i=0; i<frameCounter; i++) {
 			setBonus(frames.get(i).getFirstThrow(), frames.get(i).getSecondThrow());
