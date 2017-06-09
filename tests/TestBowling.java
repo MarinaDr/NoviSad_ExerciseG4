@@ -27,5 +27,14 @@ public class TestBowling {
 		assertEquals("Incorrect score", 9, score);
 		
 	}
+	
+	@Test
+	public void spare_test() {
+		
+		Frame frame=new Frame(5, 5);
+		
+		boolean isSpare=frame.isSpare();
+		assertEquals("Incorrect score when spare", true, isSpare);
+	}
 
 }
